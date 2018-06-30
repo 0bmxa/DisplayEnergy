@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE207F5720E8116400959AB4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE207F5620E8116400959AB4 /* NotificationManager.swift */; };
+		EE207F5A20E819F100959AB4 /* BrightnessMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE207F5920E819F100959AB4 /* BrightnessMonitor.swift */; };
+		EE207F7920E81BE600959AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE207F7220E81BE500959AB4 /* ViewController.swift */; };
+		EE207F7A20E81BE600959AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE207F7320E81BE500959AB4 /* Assets.xcassets */; };
+		EE207F7B20E81BE600959AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE207F7420E81BE500959AB4 /* LaunchScreen.storyboard */; };
+		EE207F7C20E81BE600959AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE207F7620E81BE500959AB4 /* Main.storyboard */; };
+		EE207F7D20E81BE600959AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE207F7820E81BE500959AB4 /* AppDelegate.swift */; };
+		EE207F7F20E81CFC00959AB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE207F7E20E81CFC00959AB4 /* Info.plist */; };
+		EE83390020E7E5C90079CC8B /* IODisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8338FF20E7E5C90079CC8B /* IODisplay.swift */; };
+		EE83390220E7E5E40079CC8B /* IOIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83390120E7E5E40079CC8B /* IOIterator.swift */; };
 		EEB429D92088A49000E3BE0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB429D82088A49000E3BE0B /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +33,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EEB429D52088A49000E3BE0B /* DisplayEnergy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DisplayEnergy; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE207F5620E8116400959AB4 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		EE207F5820E816F700959AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE207F5920E819F100959AB4 /* BrightnessMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessMonitor.swift; sourceTree = "<group>"; };
+		EE207F5F20E81AEF00959AB4 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE207F7220E81BE500959AB4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE207F7320E81BE500959AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE207F7520E81BE500959AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE207F7720E81BE500959AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE207F7820E81BE500959AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE207F7E20E81CFC00959AB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8338FF20E7E5C90079CC8B /* IODisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IODisplay.swift; sourceTree = "<group>"; };
+		EE83390120E7E5E40079CC8B /* IOIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOIterator.swift; sourceTree = "<group>"; };
+		EEB429D52088A49000E3BE0B /* macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB429D82088A49000E3BE0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EE207F5C20E81AEF00959AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB429D22088A49000E3BE0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE207F7120E81BE500959AB4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE207F7220E81BE500959AB4 /* ViewController.swift */,
+				EE207F7E20E81CFC00959AB4 /* Info.plist */,
+				EE207F7320E81BE500959AB4 /* Assets.xcassets */,
+				EE207F7420E81BE500959AB4 /* LaunchScreen.storyboard */,
+				EE207F7620E81BE500959AB4 /* Main.storyboard */,
+				EE207F7820E81BE500959AB4 /* AppDelegate.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		EEB429CC2088A49000E3BE0B = {
 			isa = PBXGroup;
 			children = (
-				EEB429D72088A49000E3BE0B /* DisplayEnergy */,
+				EEB429D72088A49000E3BE0B /* macOS */,
+				EE207F7120E81BE500959AB4 /* iOS */,
 				EEB429D62088A49000E3BE0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +92,48 @@
 		EEB429D62088A49000E3BE0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEB429D52088A49000E3BE0B /* DisplayEnergy */,
+				EEB429D52088A49000E3BE0B /* macOS */,
+				EE207F5F20E81AEF00959AB4 /* iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEB429D72088A49000E3BE0B /* DisplayEnergy */ = {
+		EEB429D72088A49000E3BE0B /* macOS */ = {
 			isa = PBXGroup;
 			children = (
 				EEB429D82088A49000E3BE0B /* main.swift */,
+				EE207F5920E819F100959AB4 /* BrightnessMonitor.swift */,
+				EE8338FF20E7E5C90079CC8B /* IODisplay.swift */,
+				EE83390120E7E5E40079CC8B /* IOIterator.swift */,
+				EE207F5620E8116400959AB4 /* NotificationManager.swift */,
+				EE207F5820E816F700959AB4 /* Info.plist */,
 			);
-			path = DisplayEnergy;
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEB429D42088A49000E3BE0B /* DisplayEnergy */ = {
+		EE207F5E20E81AEF00959AB4 /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEB429DC2088A49000E3BE0B /* Build configuration list for PBXNativeTarget "DisplayEnergy" */;
+			buildConfigurationList = EE207F6E20E81AF100959AB4 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				EE207F5B20E81AEF00959AB4 /* Sources */,
+				EE207F5C20E81AEF00959AB4 /* Frameworks */,
+				EE207F5D20E81AEF00959AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = DisplayEnergy;
+			productReference = EE207F5F20E81AEF00959AB4 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB429D42088A49000E3BE0B /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB429DC2088A49000E3BE0B /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
 				EEB429D12088A49000E3BE0B /* Sources */,
 				EEB429D22088A49000E3BE0B /* Frameworks */,
@@ -77,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = DisplayEnergy;
+			name = macOS;
 			productName = DisplayEnergy;
-			productReference = EEB429D52088A49000E3BE0B /* DisplayEnergy */;
+			productReference = EEB429D52088A49000E3BE0B /* macOS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -88,10 +154,13 @@
 		EEB429CD2088A49000E3BE0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "0bmxa";
 				TargetAttributes = {
+					EE207F5E20E81AEF00959AB4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					EEB429D42088A49000E3BE0B = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -103,29 +172,120 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EEB429CC2088A49000E3BE0B;
 			productRefGroup = EEB429D62088A49000E3BE0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEB429D42088A49000E3BE0B /* DisplayEnergy */,
+				EEB429D42088A49000E3BE0B /* macOS */,
+				EE207F5E20E81AEF00959AB4 /* iOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		EE207F5D20E81AEF00959AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE207F7F20E81CFC00959AB4 /* Info.plist in Resources */,
+				EE207F7A20E81BE600959AB4 /* Assets.xcassets in Resources */,
+				EE207F7C20E81BE600959AB4 /* Main.storyboard in Resources */,
+				EE207F7B20E81BE600959AB4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		EE207F5B20E81AEF00959AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE207F7D20E81BE600959AB4 /* AppDelegate.swift in Sources */,
+				EE207F7920E81BE600959AB4 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB429D12088A49000E3BE0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE83390220E7E5E40079CC8B /* IOIterator.swift in Sources */,
+				EE207F5A20E819F100959AB4 /* BrightnessMonitor.swift in Sources */,
+				EE83390020E7E5C90079CC8B /* IODisplay.swift in Sources */,
+				EE207F5720E8116400959AB4 /* NotificationManager.swift in Sources */,
 				EEB429D92088A49000E3BE0B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		EE207F7420E81BE500959AB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE207F7520E81BE500959AB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE207F7620E81BE500959AB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE207F7720E81BE500959AB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		EE207F6F20E81AF100959AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGMFM42JM6;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.DisplayEnergy.iOS.DisplayEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE207F7020E81AF100959AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGMFM42JM6;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.DisplayEnergy.iOS.DisplayEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EEB429DA2088A49000E3BE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -243,7 +403,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.DisplayEnergy.macOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -253,7 +416,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.DisplayEnergy.macOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -262,6 +428,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE207F6E20E81AF100959AB4 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE207F6F20E81AF100959AB4 /* Debug */,
+				EE207F7020E81AF100959AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEB429D02088A49000E3BE0B /* Build configuration list for PBXProject "DisplayEnergy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -271,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEB429DC2088A49000E3BE0B /* Build configuration list for PBXNativeTarget "DisplayEnergy" */ = {
+		EEB429DC2088A49000E3BE0B /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEB429DD2088A49000E3BE0B /* Debug */,
